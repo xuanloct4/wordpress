@@ -1,0 +1,368 @@
+body.ai-writing-assistant_page_single-content-writer, body.toplevel_page_ai-writing-assistant {
+    background: #dadde2 !important;
+}
+body.ai-writing-assistant_page_auto-content-writer {
+    background: #f6f7f8 !important;
+}
+.ai-writing-assistant-settings-panel{
+    font-family: 'Roboto', sans-serif;
+}
+.nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background-color: #fff;
+    border-color: #ddd #ddd #fff;
+}
+.nav-tabs .nav-item.show .nav-link:focus, .nav-tabs .nav-link.active:focus {
+    box-shadow: 0 0 0 1px #4f94d400,0 0 2px 1px rgba(79, 148, 212, 0);
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+
+.nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.nav-link:focus, .nav-link:hover {
+    text-decoration: none;
+}
+
+.nav-link.disabled {
+    color: #868e96;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #ddd;
+    margin-left: 20px;
+    margin-bottom: 2px;
+}
+
+.nav-item {
+    margin: 0 3px !important;
+    box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-tabs .nav-link {
+    border: 2px solid transparent;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000041;
+    opacity: 0.4;
+    background-color: #fff;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: #e9ecef #e9ecef #ddd;
+}
+
+.nav-tabs .nav-link.disabled {
+    color: #868e96;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    border-color: #8312f3 #8312f3 #fff #8312f3;
+    opacity: 1;
+    padding-bottom: 13px;
+    margin-bottom: -5px;
+    border-width: 2px;
+}
+
+.nav-tabs .dropdown-menu {
+    margin-top: -1px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.nav-pills .nav-link {
+    border-radius: 0.25rem;
+}
+
+.nav-pills .nav-link.active,
+.show > .nav-pills .nav-link {
+    color: #fff;
+    background-color: #007bff;
+}
+
+.nav-fill .nav-item {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+.nav-justified .nav-item {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.ai-writing-assistant-settings-panel .tab-content {
+    background-color: #ffffff;
+    padding: 10px;
+    border-top: 2px solid #8312f3;
+    padding-top: 30px;
+}
+
+.tab-content > .tab-pane {
+    display: none;
+}
+
+.tab-content > .active {
+    display: block;
+}
+.tab-pane {
+    padding: 0 13px;
+}
+.quick-action-item {
+    margin-bottom: 20px;
+}
+.aiwa-button {
+    background-color: initial;
+    background-image: linear-gradient(#8614f8 0, #760be0 100%);
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: rgba(245, 244, 247, .25) 0 1px 1px inset;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 500;
+    outline: 0;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all .3s cubic-bezier(.05, .03, .35, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: bottom;
+}
+
+.aiwa-title, .aiwa-button {
+    font-size: 14px;
+    font-weight: 500;
+}
+.save-settings .title {
+    position: relative;
+    top: 3px;
+}
+.save-settings .dashicons {
+    float: right;
+}
+.aiwa-button.save-settings {
+    padding: 9px 10px;
+    text-align: left;
+    width: 160px;
+    margin: 10px 13px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.54);
+    -webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.54);
+}
+.ai-writing-assistant-settings-panel .aiwa-button .dashicons {
+    background-color: transparent;
+    text-align: right;
+    font-weight: bold;
+    font-size: 21px;
+}
+.button-69:hover {
+    opacity: .7;
+}
+
+@media screen and (max-width: 1000px) {
+    .button-69 {
+        font-size: 14px;
+        height: 55px;
+        line-height: 55px;
+        width: 150px;
+    }
+}
+.ai-writing-assistant-settings-panel .dashicons {
+    background-color: #1f2053;
+    border-radius: 500%;
+    padding: 2px !important;
+    color: #fff;
+    position: relative;
+    top: -1.5px;
+    margin-right: 5px;
+}
+.ai-writing-assistant-settings-panel .dashicons, .dashicons-before::before {
+    width: 18px;
+    height: 18px;
+    font-size: 17px;
+    vertical-align: middle;
+}
+.ai-writing-assistant-settings-panel .dashicons-format-image {
+    font-size: 15px;
+}
+.ai-writing-assistant-settings-panel .dashicons-format-image::before {
+    position: relative;
+    top: 2px;
+}
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+    from {
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotating {
+    from {
+        -ms-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -ms-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+.rotating {
+    -webkit-animation: rotating 2s linear infinite;
+    -moz-animation: rotating 2s linear infinite;
+    -ms-animation: rotating 2s linear infinite;
+    -o-animation: rotating 2s linear infinite;
+    animation: rotating 2s linear infinite;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.ai-writing-assistant-settings-panel form {
+
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+/* Style the input fields */
+.ai-writing-assistant-settings-panel label {
+    /*display: flex;
+    align-items: center;*/
+    margin-bottom: 15px;
+}
+.ai-writing-assistant-settings-panel label span {
+    min-width: 200px;
+    margin-right: 10px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: bold;
+}
+.ai-writing-assistant-settings-panel input {
+    flex: 1;
+    /*padding: 10px;*/
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style the description tooltip */
+.ai-writing-assistant-settings-panel .tooltip {
+    position: relative;
+    display: inline-block;
+}
+.ai-writing-assistant-settings-panel .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 300px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -150px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.ai-writing-assistant-settings-panel .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+.ai-writing-assistant-settings-panel .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+/*Minify*/
+.badge{display:inline-block;padding:.25em .4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:.25rem;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out}@media (prefers-reduced-motion:reduce){.badge{transition:none}}a.badge:focus,a.badge:hover{text-decoration:none}.badge:empty{display:none}.btn .badge{position:relative;top:-1px}.badge-pill{padding-right:.6em;padding-left:.6em;border-radius:10rem}.badge-primary{color:#fff;background-color:#007bff}a.badge-primary:focus,a.badge-primary:hover{color:#fff;background-color:#0062cc}a.badge-primary.focus,a.badge-primary:focus{outline:0;box-shadow:0 0 0 .2rem rgba(0,123,255,.5)}.badge-secondary{color:#fff;background-color:#6c757d}a.badge-secondary:focus,a.badge-secondary:hover{color:#fff;background-color:#545b62}a.badge-secondary.focus,a.badge-secondary:focus{outline:0;box-shadow:0 0 0 .2rem rgba(108,117,125,.5)}.badge-success{color:#fff;background-color:#28a745}a.badge-success:focus,a.badge-success:hover{color:#fff;background-color:#1e7e34}a.badge-success.focus,a.badge-success:focus{outline:0;box-shadow:0 0 0 .2rem rgba(40,167,69,.5)}.badge-info{color:#fff;background-color:#17a2b8}a.badge-info:focus,a.badge-info:hover{color:#fff;background-color:#117a8b}a.badge-info.focus,a.badge-info:focus{outline:0;box-shadow:0 0 0 .2rem rgba(23,162,184,.5)}.badge-warning{color:#212529;background-color:#ffc107}a.badge-warning:focus,a.badge-warning:hover{color:#212529;background-color:#d39e00}a.badge-warning.focus,a.badge-warning:focus{outline:0;box-shadow:0 0 0 .2rem rgba(255,193,7,.5)}.badge-danger{color:#fff;background-color:#dc3545}a.badge-danger:focus,a.badge-danger:hover{color:#fff;background-color:#bd2130}a.badge-danger.focus,a.badge-danger:focus{outline:0;box-shadow:0 0 0 .2rem rgba(220,53,69,.5)}.badge-light{color:#212529;background-color:#f8f9fa}a.badge-light:focus,a.badge-light:hover{color:#212529;background-color:#dae0e5}a.badge-light.focus,a.badge-light:focus{outline:0;box-shadow:0 0 0 .2rem rgba(248,249,250,.5)}.badge-dark{color:#fff;background-color:#343a40}a.badge-dark:focus,a.badge-dark:hover{color:#fff;background-color:#1d2124}a.badge-dark.focus,a.badge-dark:focus{outline:0;box-shadow:0 0 0 .2rem rgba(52,58,64,.5)}
+.aiwa-save-settings.badge{
+    position: relative;
+    top: -20px;
+}
+.range-input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.range-input label {
+    margin-bottom: 0.5em;
+}
+.settings-item .input-box {
+    position: absolute;
+    left: 0;
+    margin-left: 190px !important;
+    margin-top: -6px !important;
+    width: 50px !important;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 0 !important;
+    text-align: center;
+}
+
+.settings-item {
+    padding-bottom: 20px;
+}
+
+.aiwa-hidden{
+    display: none;
+}
+
+.tab-pane {
+    display: none;
+}
+.tab-pane.active {
+    display: block;
+}
