@@ -1,0 +1,47 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-author-box-author-plugin {
+	background-color: #21759b;
+	color: #fff;
+	padding: .6em;
+	ul {
+		padding: 0;
+		list-style-type: none;
+		// https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
+		// https://learncssgrid.com/
+		display: grid;
+		gap: .5em;
+		// https://sass-lang.com/documentation/at-rules/control/for
+		@for $i from 2 through 4 {
+			&.columns-#{ $i } {
+				grid-template-columns: repeat(#{ $i }, 1fr);
+			}
+		}
+		li {
+			list-style: none;
+			img {
+				height: auto;
+				max-width: 100%;
+			}
+		}
+		
+	}
+}
+.wp-block-author-box-author-plugin__author {
+	display: flex;
+    flex-wrap: wrap;
+}
+
+.wp-block-author-box-author-plugin__avatar {
+	margin-right: 1em;
+}
+
+.wp-block-author-box-author-plugin__author-content {
+	flex-basis: 0;
+    flex-grow: 1;
+}
