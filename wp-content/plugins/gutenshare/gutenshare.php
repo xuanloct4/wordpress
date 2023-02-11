@@ -21,6 +21,29 @@
  * @see https://developer.wordpress.org/reference/functions/register_block_type/
  */
 function create_block_gutenshare_block_init() {
-	register_block_type( __DIR__ . '/build' );
+	register_block_type( __DIR__ . '/build', [
+		'render_callback' => 'dynamicblock_renderer1',
+	] );
 }
 add_action( 'init', 'create_block_gutenshare_block_init' );
+
+
+function dynamicblock_renderer1($attributes){
+	//    echo '<pre>';
+	// 	print_r($attributes);
+	//    echo '</pre>';
+	//    die();
+	// echo "<h2>"."Gutenshare >>> Result from guten pride API: "."</h2>";
+	   ob_start();
+	  
+	   $cats = $attributes["categories"];
+	   foreach($cats as $cat) {
+		// print_r($cat["title"]);
+		$title = $cat["title"];
+		echo "<h5>".$title."</h5>";
+	   }
+	
+	return ob_get_clean();
+		// return '<div>Success</div>';
+	
+	}

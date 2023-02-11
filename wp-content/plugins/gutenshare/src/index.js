@@ -37,6 +37,15 @@ registerBlockType( metadata.name, {
 			message: 'Gutenshare',
 		},
 	},
+	attributes: {
+		message: 'Gutenpride',
+		categories: {
+			type:'object'
+		},
+		selectedCategory: {
+			type:'string'
+		},
+	},
 	/**
 	 * @see ./edit.js
 	 */

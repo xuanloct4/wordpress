@@ -1,0 +1,55 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "author-box/author-plugin",
+  "version": "0.1.0",
+  "title": "Author box",
+  "category": "widgets",
+  "icon": "businessperson",
+  "description": "An example block for Kinsta readers",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "author-plugin",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "attributes": {
+    "numberOfItems": {
+      "type": "number",
+      "default": 3
+    },
+    "columns": {
+      "type": "number",
+      "default": 1
+    },
+    "displayDate": {
+      "type": "boolean",
+      "default": true
+    },
+    "displayExcerpt": {
+      "type": "boolean",
+      "default": true
+    },
+    "displayThumbnail": {
+      "type": "boolean",
+      "default": true
+    },
+    "displayAuthorInfo": {
+      "type": "boolean",
+      "default": true
+    },
+    "showAvatar": {
+      "type": "boolean",
+      "default": true
+    },
+    "avatarSize": {
+      "type": "number",
+      "default": 48
+    },
+    "showBio": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

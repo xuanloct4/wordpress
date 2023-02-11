@@ -38,12 +38,14 @@ function dynamicblock_renderer($attributes){
 
    $cats = $attributes["categories"];
 
+   echo "<h2>"."Gutenpride >>> Fetch API ...."."</h2>";
+
    ob_start();
-   foreach($cats as $cat) {
-	// print_r($cat["title"]);
-	$title = $cat["title"];
-	echo "<h2>".$title."</h2>";
-   }
+//    foreach($cats as $cat) {
+// 	// print_r($cat["title"]);
+// 	$title = $cat["title"];
+// 	echo "<h2>".$title."</h2>";
+//    }
 
 return ob_get_clean();
 	// return '<div>Success</div>';
